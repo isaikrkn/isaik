@@ -3,151 +3,152 @@ const content = {
     meta: {
       title: 'Isaik | Hacking the Noise',
       description:
-        'Official website of Isaik — cybersecurity specialist, sound designer and creative technologist. Ethical hacking, cloud security, automation, sonic art and signal-driven systems.'
+        'Official website of Isaik — cybersecurity, automation, cyber-physical systems, and sonic research. Hacking the Noise.'
     },
     nav: {
-      work: 'Work',
+      work: 'Focus',
       positioning: 'Positioning',
       profile: 'Profile',
       contact: 'Contact'
     },
     hero: {
-      eyebrow: 'Cybersecurity Specialist · Sound Designer · Creative Technologist',
+      eyebrow: 'Cybersecurity · Automation · Sonic Research · Cyber-Physical Systems',
       mantra: 'Hacking the Noise',
-      title: 'Ethical hacking, sonic systems, and a personal brand built like a modern music mage.',
+      title: 'Cybersecurity, automation, and sonic systems for signal-rich futures.',
       lead:
-        'I design secure systems, automate threat detection, and explore sound as signal, code, ritual, and performance. My practice connects application security, cloud operations, hardware curiosity, and audiovisual art.',
-      primaryCta: 'Explore the work',
-      secondaryCta: 'Get in touch',
+        'I build secure cloud and industrial workflows, automate detection and operations, and explore sound as a signal practice linking software, hardware, and performance.',
+      primaryCta: 'See core focus',
+      secondaryCta: 'Contact',
       metrics: {
         one: {
           title: 'Security Engineering',
-          text: 'Application security, SOC workflows, SIEM, EDR, detection engineering.'
+          text: 'AppSec, SOC automation, SIEM, EDR, cloud defense, response workflows.'
         },
         two: {
-          title: 'Signal & Sound',
-          text: 'Sound design, audio analysis, electroacoustic thinking, generative systems.'
+          title: 'Automation & Systems',
+          text: 'PLC logic, IIoT telemetry, SCADA thinking, infrastructure, reliability.'
         },
         three: {
-          title: 'Cloud & Hardware',
-          text: 'AWS, Azure, automation, infrastructure, and a growing hardware/electrical practice.'
+          title: 'Signal & Sonic Research',
+          text: 'Sound design, audio analysis, creative coding, electroacoustic and cyber-sonic exploration.'
         }
       },
+      visualLabel: 'Current direction',
       visualText:
-        'Building a brand at the intersection of ethical hacking, cloud defense, sound systems, and techno-mystic performance language.',
+        'A professional profile first: cybersecurity, automation, and cyber-physical engineering — with a distinctive layer of sonic research and creative systems thinking.',
       visualList: {
-        one: 'AppSec / SOC / automation',
-        two: 'Signal, synthesis, sonic research',
-        three: 'Hardware, infrastructure, system thinking'
+        one: 'AppSec / SOC automation / cloud defense',
+        two: 'IIoT / PLC / electrical and hardware systems',
+        three: 'Signal analysis / sound / creative coding'
       }
     },
     positioning: {
       label: 'Positioning',
-      title: 'From artist-technologist to cyber-sonic identity.',
+      title: 'Professional first, distinctive second.',
       textOne:
-        'Your strongest differentiation is not “musician who likes security”, but a hybrid profile that combines cybersecurity engineering, cloud defense, automation, AI, sound systems, and artistic direction.',
+        'The site should present you first as a credible engineering profile spanning cybersecurity, automation, cloud, and cyber-physical systems.',
       textTwo:
-        'Visually, the site should feel like a clean security console crossed with a ritual instrument panel: precise, minimal, and memorable. That supports the “music mage” idea without looking theatrical or unprofessional.'
+        'Your artistic layer remains a differentiator, not a distraction: sound, signal, and systems thinking make the brand memorable without reducing professionalism.'
     },
     work: {
-      label: 'Selected tracks of experience',
-      title: 'What the brand should emphasize now',
+      label: 'Core focus',
+      title: 'What the site should emphasize now',
       intro:
-        'These blocks translate your background into a sharper narrative for recruiters, collaborators, festivals, labs, and cybersecurity teams.'
+        'These blocks align your website with the strongest story from your engineering, security, automation, and sound background.'
     },
     profile: {
       label: 'Profile',
       title: 'Recommended bio direction',
       textOne:
-        'Isaik is a cybersecurity specialist, sound designer, and creative technologist exploring the space where security research, signal analysis, cloud systems, and sonic art meet.',
+        'Isaik is a cybersecurity and automation engineer with experience across application security, SOC operations, cloud systems, software development, electrical work, and industrial environments.',
       textTwo:
-        'His work spans application security, SOC automation, cloud defense, AI-assisted detection, and experimental sound practices rooted in systems thinking, coding, and audiovisual performance.',
+        'Alongside engineering, he develops sonic and signal-based research as a long-term creative practice, linking software, hardware, sound design, and system architecture.',
       quote:
-        '“Hacking the Noise” is both a creative statement and a systems mindset: finding structure in complexity, transforming interference into signal, and designing tools that listen, detect, and respond.',
+        '“Hacking the Noise” means reducing complexity into signal — in security operations, automation, and sound.',
       panel: {
         base: 'Base',
-        baseValue: 'Dublin, Ireland',
+        baseValue: 'Tipperary / Ireland',
         focus: 'Focus',
-        focusValue: 'AppSec, SOC automation, sound systems, creative coding',
+        focusValue: 'AppSec, SOC automation, cloud, industrial systems, sonic research',
         stack: 'Stack',
-        stackValue: 'Azure Sentinel, Defender, CrowdStrike, AWS, Azure, Python, PowerShell, Bash',
-        visual: 'Visual language',
-        visualValue: 'Signal glyphs, terminal glass, arcane geometry, controlled glow'
+        stackValue: 'Azure Sentinel, Defender, CrowdStrike, AWS, Azure, Python, PowerShell, PLC, IIoT',
+        visual: 'Visual direction',
+        visualValue: 'Security console, controlled glow, grid geometry, subtle arcane signal motifs'
       }
     },
     offers: {
-      label: 'Use this site to attract',
-      title: 'Collaborations, roles, and opportunities',
+      label: 'Open to',
+      title: 'Roles, collaborations, and projects',
       intro:
-        'These are the offers and formats worth making explicit in your website so the right people know how to work with you.'
+        'Make it easy for recruiters, hiring managers, labs, and collaborators to understand where you fit best.'
     },
     cta: {
-      label: 'Next layer',
-      title: 'Add proof, not just aesthetics.',
+      label: 'Proof layer',
+      title: 'Add evidence that supports the positioning.',
       text:
-        'The strongest next improvement is to add real links to GitHub, LinkedIn, talks, demos, write-ups, music platforms, and a downloadable resume or press kit.'
+        'Prioritize LinkedIn, GitHub, case studies, write-ups, certifications, project demos, and a downloadable CV. Let the visual identity support the work, not replace it.'
     },
     footer: {
       label: 'Contact',
-      title: 'Security, sound, systems, and strange signal.',
+      title: 'Cybersecurity, automation, and signal-driven creativity.',
       text:
-        'Available for cybersecurity roles, creative technology collaborations, sonic projects, security automation, and interdisciplinary commissions.',
-      location: 'Dublin, Ireland'
+        'Available for cybersecurity roles, cloud security, cyber-physical and automation work, creative technology collaborations, and selected sonic projects.',
+      location: 'Ireland'
     },
     projects: [
       {
-        title: 'Application Security & SOC Automation',
-        year: '2024 — present',
-        tag: 'Core positioning',
+        title: 'Application security and SOC automation',
+        year: 'Current core',
+        tag: 'Primary positioning',
         description:
-          'Present yourself as someone building AI-assisted security operations, SOC workflows, incident response support, event correlation, and practical automation for detection and remediation.',
-        chips: ['AppSec', 'SOC Bot', 'Azure Sentinel', 'Incident Response']
+          'Lead with AppSec, cloud defense, SIEM/EDR workflows, incident response support, security automation, and AI-assisted triage. This is the strongest recruiter-facing story.',
+        chips: ['AppSec', 'SOC', 'SIEM / EDR', 'Security automation']
       },
       {
-        title: 'Cloud Security Engineering',
-        year: '2022 — 2023',
+        title: 'Cloud security and DevSecOps systems',
+        year: 'Production experience',
         tag: 'Cloud layer',
         description:
-          'Highlight experience securing AWS and Azure workloads, working with network boundaries, automation, and secure application delivery across cloud environments.',
-        chips: ['AWS', 'Azure', 'VPC / VNet', 'Automation']
+          'Show experience with AWS and Azure, telemetry, secure workloads, identity and network controls, and the bridge between software delivery and security operations.',
+        chips: ['AWS', 'Azure', 'Cloud security', 'DevSecOps']
       },
       {
-        title: 'AI, Audio & Signal Analysis',
-        year: 'Research axis',
-        tag: 'Unique differentiator',
+        title: 'Industrial automation and cyber-physical systems',
+        year: 'Growing edge',
+        tag: 'Hardware + operations',
         description:
-          'This is a rare bridge in your profile: using AI and sound signal analysis in technical contexts makes your artistic and engineering narratives reinforce each other.',
-        chips: ['Signal analysis', 'AI', 'Audio patterns', 'Systems thinking']
+          'Present PLCs, IIoT, electrical systems, maintenance thinking, and factory-floor reliability as part of a cyber-physical engineering profile.',
+        chips: ['PLC', 'IIoT', 'Electrical systems', 'Reliability']
       },
       {
-        title: 'Hardware, Electrical & Sonic Systems',
-        year: 'Current expansion',
-        tag: 'New frontier',
+        title: 'Sonic research, signal analysis, and creative systems',
+        year: 'Distinctive layer',
+        tag: 'Differentiator',
         description:
-          'Your current electrical and hardware growth should be framed as an extension of your systems mindset: infrastructure, devices, embedded curiosity, and physical signal paths.',
-        chips: ['Hardware', 'Electrical systems', 'Devices', 'Physical signal']
+          'Keep sound, signal, and creative coding as a memorable layer of the brand: valuable for labs, R&D, installations, and long-term artistic identity.',
+        chips: ['Signal analysis', 'Sound design', 'Creative coding', 'Research']
       }
     ],
     services: [
       {
-        title: 'Cybersecurity roles',
+        title: 'Cybersecurity and cloud roles',
         description:
-          'Application security, SOC analyst workflows, cloud security, detection engineering, automation, and security operations support.'
+          'Application security, detection engineering, SOC automation, cloud defense, incident response support, and security operations.'
       },
       {
-        title: 'Security + AI prototypes',
+        title: 'Automation and cyber-physical engineering',
         description:
-          'Tools, assistants, and workflows that help security teams triage, detect, analyze, and respond with more speed and clarity.'
+          'Industrial automation, PLC environments, IIoT telemetry, electrical systems, maintenance logic, and secure operational workflows.'
       },
       {
-        title: 'Cyber-sonic art projects',
+        title: 'Research, prototypes, and technical demos',
         description:
-          'Installations, performances, and research pieces using signal, noise, code, and audiovisual systems as creative material.'
+          'Proof-of-concepts that connect AI, automation, signal processing, software systems, and applied security.'
       },
       {
-        title: 'Hardware and system experiments',
+        title: 'Selected sonic and creative technology work',
         description:
-          'Interdisciplinary work that connects hardware, sound, electronics, and infrastructure into tangible prototypes or performance systems.'
+          'Sound systems, cyber-sonic experiments, installations, and interdisciplinary work when aligned with the broader professional brand.'
       }
     ]
   },
@@ -155,151 +156,152 @@ const content = {
     meta: {
       title: 'Isaik | Hacking the Noise',
       description:
-        'Sitio oficial de Isaik — especialista en ciberseguridad, sound designer y creative technologist. Ethical hacking, cloud security, automatización, arte sonoro y sistemas guiados por señal.'
+        'Sitio oficial de Isaik — ciberseguridad, automatización, sistemas ciberfísicos e investigación sonora. Hacking the Noise.'
     },
     nav: {
-      work: 'Trabajo',
+      work: 'Enfoque',
       positioning: 'Posicionamiento',
       profile: 'Perfil',
       contact: 'Contacto'
     },
     hero: {
-      eyebrow: 'Especialista en Ciberseguridad · Sound Designer · Creative Technologist',
+      eyebrow: 'Ciberseguridad · Automatización · Investigación sonora · Sistemas ciberfísicos',
       mantra: 'Hacking the Noise',
-      title: 'Hacking ético, sistemas sonoros y una marca personal construida como un mago moderno de la música.',
+      title: 'Ciberseguridad, automatización y sistemas sonoros para futuros llenos de señal.',
       lead:
-        'Diseño sistemas seguros, automatizo detección de amenazas y exploro el sonido como señal, código, ritual y performance. Mi práctica conecta seguridad de aplicaciones, operaciones cloud, curiosidad por el hardware y arte audiovisual.',
-      primaryCta: 'Explorar el trabajo',
+        'Construyo flujos seguros en nube y entornos industriales, automatizo detección y operaciones, y exploro el sonido como una práctica de señal que une software, hardware y performance.',
+      primaryCta: 'Ver enfoque central',
       secondaryCta: 'Contactar',
       metrics: {
         one: {
           title: 'Ingeniería de seguridad',
-          text: 'Seguridad de aplicaciones, flujos SOC, SIEM, EDR e ingeniería de detección.'
+          text: 'AppSec, automatización SOC, SIEM, EDR, defensa cloud y flujos de respuesta.'
         },
         two: {
-          title: 'Señal y sonido',
-          text: 'Diseño sonoro, análisis de audio, pensamiento electroacústico y sistemas generativos.'
+          title: 'Automatización y sistemas',
+          text: 'Lógica PLC, telemetría IIoT, visión SCADA, infraestructura y confiabilidad.'
         },
         three: {
-          title: 'Cloud y hardware',
-          text: 'AWS, Azure, automatización, infraestructura y una práctica creciente en hardware/electricidad.'
+          title: 'Señal e investigación sonora',
+          text: 'Diseño sonoro, análisis de audio, creative coding y exploración ciber-sónica.'
         }
       },
+      visualLabel: 'Dirección actual',
       visualText:
-        'Construyendo una marca en la intersección del hacking ético, la defensa cloud, los sistemas sonoros y un lenguaje performático tecno-místico.',
+        'Primero un perfil profesional: ciberseguridad, automatización e ingeniería ciberfísica, con una capa distintiva de investigación sonora y pensamiento sistémico creativo.',
       visualList: {
-        one: 'AppSec / SOC / automatización',
-        two: 'Señal, síntesis, investigación sonora',
-        three: 'Hardware, infraestructura, pensamiento sistémico'
+        one: 'AppSec / automatización SOC / defensa cloud',
+        two: 'IIoT / PLC / sistemas eléctricos y hardware',
+        three: 'Análisis de señal / sonido / creative coding'
       }
     },
     positioning: {
       label: 'Posicionamiento',
-      title: 'De artista-tecnólogo a identidad ciber-sónica.',
+      title: 'Primero profesional, después distintivo.',
       textOne:
-        'Tu diferenciación más fuerte no es “músico que también conoce seguridad”, sino un perfil híbrido que combina ingeniería en ciberseguridad, defensa cloud, automatización, IA, sistemas sonoros y dirección artística.',
+        'El sitio debe presentarte primero como un perfil de ingeniería creíble en ciberseguridad, automatización, cloud y sistemas ciberfísicos.',
       textTwo:
-        'Visualmente, el sitio debe sentirse como una consola de seguridad limpia cruzada con un panel ritual de instrumentos: preciso, minimalista y memorable. Eso sostiene la idea del “mago de la música” sin verse teatral ni poco profesional.'
+        'Tu capa artística sigue siendo una ventaja diferencial, no una distracción: sonido, señal y pensamiento sistémico hacen la marca memorable sin restar profesionalismo.'
     },
     work: {
-      label: 'Capas seleccionadas de experiencia',
-      title: 'Lo que la marca debe enfatizar ahora',
+      label: 'Enfoque central',
+      title: 'Lo que el sitio debe enfatizar ahora',
       intro:
-        'Estos bloques traducen tu trayectoria en una narrativa más aguda para reclutadores, colaboradores, festivales, laboratorios y equipos de ciberseguridad.'
+        'Estos bloques alinean tu web con la historia más fuerte de tu trayectoria en ingeniería, seguridad, automatización y sonido.'
     },
     profile: {
       label: 'Perfil',
       title: 'Dirección recomendada para la bio',
       textOne:
-        'Isaik es un especialista en ciberseguridad, sound designer y creative technologist que explora el espacio donde se encuentran la investigación en seguridad, el análisis de señal, los sistemas cloud y el arte sonoro.',
+        'Isaik es un ingeniero de ciberseguridad y automatización con experiencia en seguridad de aplicaciones, operaciones SOC, sistemas cloud, desarrollo de software, trabajo eléctrico y entornos industriales.',
       textTwo:
-        'Su trabajo abarca seguridad de aplicaciones, automatización SOC, defensa cloud, detección asistida por IA y prácticas sonoras experimentales arraigadas en pensamiento sistémico, código y performance audiovisual.',
+        'En paralelo a la ingeniería, desarrolla investigación sonora y basada en señal como una práctica creativa de largo plazo que conecta software, hardware, diseño sonoro y arquitectura de sistemas.',
       quote:
-        '“Hacking the Noise” es a la vez una declaración creativa y una forma de pensar sistemas: encontrar estructura en la complejidad, transformar interferencia en señal y diseñar herramientas que escuchan, detectan y responden.',
+        '“Hacking the Noise” significa reducir la complejidad a señal útil: en operaciones de seguridad, automatización y sonido.',
       panel: {
         base: 'Base',
-        baseValue: 'Dublín, Irlanda',
+        baseValue: 'Tipperary / Irlanda',
         focus: 'Enfoque',
-        focusValue: 'AppSec, automatización SOC, sistemas sonoros, creative coding',
+        focusValue: 'AppSec, automatización SOC, cloud, sistemas industriales e investigación sonora',
         stack: 'Stack',
-        stackValue: 'Azure Sentinel, Defender, CrowdStrike, AWS, Azure, Python, PowerShell, Bash',
-        visual: 'Lenguaje visual',
-        visualValue: 'Glifos de señal, cristal de terminal, geometría arcana, brillo controlado'
+        stackValue: 'Azure Sentinel, Defender, CrowdStrike, AWS, Azure, Python, PowerShell, PLC, IIoT',
+        visual: 'Dirección visual',
+        visualValue: 'Consola de seguridad, brillo controlado, geometría de rejilla y motivos sutiles de señal arcana'
       }
     },
     offers: {
-      label: 'Usa este sitio para atraer',
-      title: 'Colaboraciones, roles y oportunidades',
+      label: 'Abierto a',
+      title: 'Roles, colaboraciones y proyectos',
       intro:
-        'Estas son las ofertas y formatos que vale la pena volver explícitos en tu web para que la gente correcta entienda cómo trabajar contigo.'
+        'Haz que reclutadores, hiring managers, laboratorios y colaboradores entiendan rápido dónde encajas mejor.'
     },
     cta: {
-      label: 'Siguiente capa',
-      title: 'Agrega pruebas, no solo estética.',
+      label: 'Capa de prueba',
+      title: 'Agrega evidencia que respalde el posicionamiento.',
       text:
-        'La mejora más fuerte ahora es añadir enlaces reales a GitHub, LinkedIn, charlas, demos, write-ups, plataformas musicales y un CV o press kit descargable.'
+        'Prioriza LinkedIn, GitHub, casos de estudio, write-ups, certificaciones, demos y un CV descargable. La identidad visual debe apoyar el trabajo, no reemplazarlo.'
     },
     footer: {
       label: 'Contacto',
-      title: 'Seguridad, sonido, sistemas y señal extraña.',
+      title: 'Ciberseguridad, automatización y creatividad guiada por señal.',
       text:
-        'Disponible para roles en ciberseguridad, colaboraciones de tecnología creativa, proyectos sonoros, automatización de seguridad y comisiones interdisciplinarias.',
-      location: 'Dublín, Irlanda'
+        'Disponible para roles de ciberseguridad, seguridad cloud, trabajo ciberfísico y de automatización, colaboraciones en tecnología creativa y proyectos sonoros seleccionados.',
+      location: 'Irlanda'
     },
     projects: [
       {
         title: 'Seguridad de aplicaciones y automatización SOC',
-        year: '2024 — presente',
-        tag: 'Posicionamiento central',
+        year: 'Centro actual',
+        tag: 'Posicionamiento principal',
         description:
-          'Preséntate como alguien que construye operaciones de seguridad asistidas por IA, flujos SOC, soporte de respuesta a incidentes, correlación de eventos y automatización práctica para detección y remediación.',
-        chips: ['AppSec', 'SOC Bot', 'Azure Sentinel', 'Incident Response']
+          'Conviene liderar con AppSec, defensa cloud, flujos SIEM/EDR, soporte de incident response, automatización de seguridad y triage asistido por IA. Es la historia más fuerte para reclutadores.',
+        chips: ['AppSec', 'SOC', 'SIEM / EDR', 'Automatización de seguridad']
       },
       {
-        title: 'Ingeniería de seguridad cloud',
-        year: '2022 — 2023',
+        title: 'Seguridad cloud y sistemas DevSecOps',
+        year: 'Experiencia productiva',
         tag: 'Capa cloud',
         description:
-          'Destaca experiencia asegurando cargas en AWS y Azure, trabajando con perímetros de red, automatización y entrega segura de aplicaciones en entornos cloud.',
-        chips: ['AWS', 'Azure', 'VPC / VNet', 'Automatización']
+          'Muestra experiencia con AWS y Azure, telemetría, cargas seguras, controles de identidad y red, y el puente entre entrega de software y operaciones de seguridad.',
+        chips: ['AWS', 'Azure', 'Seguridad cloud', 'DevSecOps']
       },
       {
-        title: 'IA, audio y análisis de señal',
-        year: 'Eje de investigación',
-        tag: 'Diferenciador único',
+        title: 'Automatización industrial y sistemas ciberfísicos',
+        year: 'Borde de crecimiento',
+        tag: 'Hardware + operaciones',
         description:
-          'Este puente es raro en tu perfil: usar IA y análisis de señales sonoras en contextos técnicos hace que tu narrativa artística e ingenieril se refuercen mutuamente.',
-        chips: ['Análisis de señal', 'IA', 'Patrones de audio', 'Pensamiento sistémico']
+          'Presenta PLC, IIoT, sistemas eléctricos, lógica de mantenimiento y confiabilidad de planta como parte de un perfil de ingeniería ciberfísica.',
+        chips: ['PLC', 'IIoT', 'Sistemas eléctricos', 'Confiabilidad']
       },
       {
-        title: 'Hardware, electricidad y sistemas sonoros',
-        year: 'Expansión actual',
-        tag: 'Nueva frontera',
+        title: 'Investigación sonora, análisis de señal y sistemas creativos',
+        year: 'Capa distintiva',
+        tag: 'Diferenciador',
         description:
-          'Tu crecimiento actual en ingeniería eléctrica y hardware debe enmarcarse como una extensión de tu pensamiento sistémico: infraestructura, dispositivos, curiosidad embebida y rutas físicas de señal.',
-        chips: ['Hardware', 'Sistemas eléctricos', 'Dispositivos', 'Señal física']
+          'Mantén sonido, señal y creative coding como una capa memorable de la marca: valiosa para labs, I+D, instalaciones y tu identidad artística de largo plazo.',
+        chips: ['Análisis de señal', 'Diseño sonoro', 'Creative coding', 'Investigación']
       }
     ],
     services: [
       {
-        title: 'Roles en ciberseguridad',
+        title: 'Roles de ciberseguridad y cloud',
         description:
-          'Seguridad de aplicaciones, flujos de analista SOC, cloud security, ingeniería de detección, automatización y soporte de operaciones de seguridad.'
+          'Seguridad de aplicaciones, ingeniería de detección, automatización SOC, defensa cloud, soporte a incident response y operaciones de seguridad.'
       },
       {
-        title: 'Prototipos de seguridad + IA',
+        title: 'Automatización e ingeniería ciberfísica',
         description:
-          'Herramientas, asistentes y flujos que ayudan a equipos de seguridad a triage, detectar, analizar y responder con más velocidad y claridad.'
+          'Automatización industrial, entornos PLC, telemetría IIoT, sistemas eléctricos, lógica de mantenimiento y flujos operativos seguros.'
       },
       {
-        title: 'Proyectos de arte ciber-sónico',
+        title: 'Investigación, prototipos y demos técnicas',
         description:
-          'Instalaciones, performances y piezas de investigación que usan señal, ruido, código y sistemas audiovisuales como materia creativa.'
+          'Pruebas de concepto que conectan IA, automatización, procesamiento de señal, sistemas de software y seguridad aplicada.'
       },
       {
-        title: 'Experimentos de hardware y sistemas',
+        title: 'Trabajo sonoro y creative technology seleccionado',
         description:
-          'Trabajo interdisciplinario que conecta hardware, sonido, electrónica e infraestructura en prototipos tangibles o sistemas de performance.'
+          'Sistemas sonoros, experimentos ciber-sónicos, instalaciones y trabajo interdisciplinario cuando se alinea con la marca profesional global.'
       }
     ]
   },
@@ -307,151 +309,152 @@ const content = {
     meta: {
       title: 'Isaik | Hacking the Noise',
       description:
-        'Site officiel d’Isaik — spécialiste en cybersécurité, sound designer et creative technologist. Ethical hacking, cloud security, automatisation, art sonore et systèmes pilotés par le signal.'
+        'Site officiel d’Isaik — cybersécurité, automatisation, systèmes cyber-physiques et recherche sonore. Hacking the Noise.'
     },
     nav: {
-      work: 'Travail',
+      work: 'Focus',
       positioning: 'Positionnement',
       profile: 'Profil',
       contact: 'Contact'
     },
     hero: {
-      eyebrow: 'Spécialiste en cybersécurité · Sound Designer · Creative Technologist',
+      eyebrow: 'Cybersécurité · Automatisation · Recherche sonore · Systèmes cyber-physiques',
       mantra: 'Hacking the Noise',
-      title: 'Hacking éthique, systèmes sonores et une marque personnelle construite comme un mage moderne de la musique.',
+      title: 'Cybersécurité, automatisation et systèmes sonores pour des futurs riches en signal.',
       lead:
-        'Je conçois des systèmes sécurisés, j’automatise la détection des menaces et j’explore le son comme signal, code, rituel et performance. Ma pratique relie sécurité applicative, opérations cloud, curiosité matérielle et art audiovisuel.',
-      primaryCta: 'Explorer le travail',
-      secondaryCta: 'Prendre contact',
+        'Je construis des workflows sécurisés dans le cloud et l’industrie, j’automatise la détection et les opérations, et j’explore le son comme pratique du signal reliant logiciel, hardware et performance.',
+      primaryCta: 'Voir le focus central',
+      secondaryCta: 'Contacter',
       metrics: {
         one: {
           title: 'Ingénierie sécurité',
-          text: 'Sécurité applicative, workflows SOC, SIEM, EDR et ingénierie de détection.'
+          text: 'AppSec, automatisation SOC, SIEM, EDR, défense cloud et workflows de réponse.'
         },
         two: {
-          title: 'Signal & son',
-          text: 'Sound design, analyse audio, pensée électroacoustique et systèmes génératifs.'
+          title: 'Automatisation et systèmes',
+          text: 'Logique PLC, télémétrie IIoT, pensée SCADA, infrastructure et fiabilité.'
         },
         three: {
-          title: 'Cloud & hardware',
-          text: 'AWS, Azure, automatisation, infrastructure et pratique croissante du hardware/électrique.'
+          title: 'Signal et recherche sonore',
+          text: 'Sound design, analyse audio, creative coding et exploration cyber-sonique.'
         }
       },
+      visualLabel: 'Direction actuelle',
       visualText:
-        'Construire une marque à l’intersection du hacking éthique, de la défense cloud, des systèmes sonores et d’un langage performatif techno-mystique.',
+        'D’abord un profil professionnel : cybersécurité, automatisation et ingénierie cyber-physique — avec une couche distinctive de recherche sonore et de pensée systémique créative.',
       visualList: {
-        one: 'AppSec / SOC / automatisation',
-        two: 'Signal, synthèse, recherche sonore',
-        three: 'Hardware, infrastructure, pensée systémique'
+        one: 'AppSec / automatisation SOC / défense cloud',
+        two: 'IIoT / PLC / systèmes électriques et hardware',
+        three: 'Analyse du signal / son / creative coding'
       }
     },
     positioning: {
       label: 'Positionnement',
-      title: 'D’artiste-technologue à une identité cyber-sonique.',
+      title: 'Professionnel d’abord, distinctif ensuite.',
       textOne:
-        'Votre différenciation la plus forte n’est pas “musicien qui aime la sécurité”, mais un profil hybride qui combine ingénierie cybersécurité, défense cloud, automatisation, IA, systèmes sonores et direction artistique.',
+        'Le site doit vous présenter d’abord comme un profil d’ingénierie crédible couvrant cybersécurité, automatisation, cloud et systèmes cyber-physiques.',
       textTwo:
-        'Visuellement, le site doit ressembler à une console de sécurité épurée croisée avec un panneau rituel d’instruments : précis, minimal et mémorable. Cela soutient l’idée du “mage de la musique” sans paraître théâtral ni peu professionnel.'
+        'Votre couche artistique reste un différenciateur, non une distraction : son, signal et pensée systémique rendent la marque mémorable sans réduire le professionnalisme.'
     },
     work: {
-      label: 'Couches d’expérience sélectionnées',
-      title: 'Ce que la marque doit mettre en avant maintenant',
+      label: 'Focus central',
+      title: 'Ce que le site doit mettre en avant maintenant',
       intro:
-        'Ces blocs traduisent votre parcours en un récit plus net pour les recruteurs, collaborateurs, festivals, laboratoires et équipes cybersécurité.'
+        'Ces blocs alignent votre site avec le récit le plus fort de votre parcours en ingénierie, sécurité, automatisation et son.'
     },
     profile: {
       label: 'Profil',
       title: 'Orientation recommandée pour la bio',
       textOne:
-        'Isaik est un spécialiste en cybersécurité, sound designer et creative technologist qui explore l’espace où se rencontrent recherche en sécurité, analyse du signal, systèmes cloud et art sonore.',
+        'Isaik est un ingénieur en cybersécurité et automatisation avec une expérience en sécurité applicative, opérations SOC, systèmes cloud, développement logiciel, travail électrique et environnements industriels.',
       textTwo:
-        'Son travail couvre la sécurité applicative, l’automatisation SOC, la défense cloud, la détection assistée par IA et des pratiques sonores expérimentales ancrées dans la pensée systémique, le code et la performance audiovisuelle.',
+        'Parallèlement à l’ingénierie, il développe une recherche sonore et signal comme pratique créative de long terme, reliant logiciel, hardware, sound design et architecture des systèmes.',
       quote:
-        '« Hacking the Noise » est à la fois une déclaration créative et une manière de penser les systèmes : trouver une structure dans la complexité, transformer l’interférence en signal et concevoir des outils qui écoutent, détectent et répondent.',
+        '« Hacking the Noise » signifie réduire la complexité en signal utile — en opérations de sécurité, automatisation et son.',
       panel: {
         base: 'Base',
-        baseValue: 'Dublin, Irlande',
+        baseValue: 'Tipperary / Irlande',
         focus: 'Focus',
-        focusValue: 'AppSec, automatisation SOC, systèmes sonores, creative coding',
+        focusValue: 'AppSec, automatisation SOC, cloud, systèmes industriels et recherche sonore',
         stack: 'Stack',
-        stackValue: 'Azure Sentinel, Defender, CrowdStrike, AWS, Azure, Python, PowerShell, Bash',
-        visual: 'Langage visuel',
-        visualValue: 'Glyphes de signal, verre terminal, géométrie arcane, lueur contrôlée'
+        stackValue: 'Azure Sentinel, Defender, CrowdStrike, AWS, Azure, Python, PowerShell, PLC, IIoT',
+        visual: 'Direction visuelle',
+        visualValue: 'Console de sécurité, lueur contrôlée, géométrie en grille et motifs subtils de signal arcanique'
       }
     },
     offers: {
-      label: 'Utilisez ce site pour attirer',
-      title: 'Collaborations, rôles et opportunités',
+      label: 'Ouvert à',
+      title: 'Rôles, collaborations et projets',
       intro:
-        'Voici les offres et formats qu’il vaut la peine de rendre explicites sur votre site pour que les bonnes personnes sachent comment travailler avec vous.'
+        'Facilitez la compréhension pour les recruteurs, hiring managers, laboratoires et collaborateurs quant aux endroits où vous apportez le plus de valeur.'
     },
     cta: {
-      label: 'Couche suivante',
-      title: 'Ajoutez des preuves, pas seulement de l’esthétique.',
+      label: 'Couche de preuve',
+      title: 'Ajoutez des preuves qui soutiennent le positionnement.',
       text:
-        'L’amélioration la plus forte consiste maintenant à ajouter de vrais liens vers GitHub, LinkedIn, talks, démos, write-ups, plateformes musicales et un CV ou press kit téléchargeable.'
+        'Priorisez LinkedIn, GitHub, études de cas, write-ups, certifications, démos et un CV téléchargeable. L’identité visuelle doit soutenir le travail, pas le remplacer.'
     },
     footer: {
       label: 'Contact',
-      title: 'Sécurité, son, systèmes et signal étrange.',
+      title: 'Cybersécurité, automatisation et créativité guidée par le signal.',
       text:
-        'Disponible pour des rôles en cybersécurité, des collaborations en technologie créative, des projets sonores, de l’automatisation sécurité et des commandes interdisciplinaires.',
-      location: 'Dublin, Irlande'
+        'Disponible pour des rôles en cybersécurité, sécurité cloud, travail cyber-physique et automatisation, collaborations en technologie créative et projets sonores sélectionnés.',
+      location: 'Irlande'
     },
     projects: [
       {
         title: 'Sécurité applicative et automatisation SOC',
-        year: '2024 — présent',
-        tag: 'Positionnement central',
+        year: 'Cœur actuel',
+        tag: 'Positionnement principal',
         description:
-          'Présentez-vous comme quelqu’un qui construit des opérations de sécurité assistées par IA, des workflows SOC, du support à la réponse à incident, de la corrélation d’événements et une automatisation pratique pour la détection et la remédiation.',
-        chips: ['AppSec', 'SOC Bot', 'Azure Sentinel', 'Réponse à incident']
+          'Il est préférable de mener avec AppSec, défense cloud, workflows SIEM/EDR, support à l’incident response, automatisation sécurité et triage assisté par IA. C’est le récit le plus fort pour les recruteurs.',
+        chips: ['AppSec', 'SOC', 'SIEM / EDR', 'Automatisation sécurité']
       },
       {
-        title: 'Ingénierie de sécurité cloud',
-        year: '2022 — 2023',
+        title: 'Sécurité cloud et systèmes DevSecOps',
+        year: 'Expérience en production',
         tag: 'Couche cloud',
         description:
-          'Mettez en avant votre expérience dans la sécurisation des workloads AWS et Azure, les périmètres réseau, l’automatisation et la livraison sécurisée des applications dans le cloud.',
-        chips: ['AWS', 'Azure', 'VPC / VNet', 'Automatisation']
+          'Montrez votre expérience avec AWS et Azure, la télémétrie, les workloads sécurisés, les contrôles réseau et identité, et le pont entre delivery logiciel et opérations sécurité.',
+        chips: ['AWS', 'Azure', 'Sécurité cloud', 'DevSecOps']
       },
       {
-        title: 'IA, audio et analyse du signal',
-        year: 'Axe de recherche',
-        tag: 'Différenciateur unique',
+        title: 'Automatisation industrielle et systèmes cyber-physiques',
+        year: 'Frontière de croissance',
+        tag: 'Hardware + opérations',
         description:
-          'Ce pont est rare dans votre profil : utiliser l’IA et l’analyse de signaux sonores dans des contextes techniques fait se renforcer votre récit artistique et votre récit d’ingénierie.',
-        chips: ['Analyse du signal', 'IA', 'Motifs audio', 'Pensée systémique']
+          'Présentez PLC, IIoT, systèmes électriques, logique de maintenance et fiabilité industrielle comme partie intégrante d’un profil d’ingénierie cyber-physique.',
+        chips: ['PLC', 'IIoT', 'Systèmes électriques', 'Fiabilité']
       },
       {
-        title: 'Hardware, électricité et systèmes sonores',
-        year: 'Expansion actuelle',
-        tag: 'Nouvelle frontière',
+        title: 'Recherche sonore, analyse du signal et systèmes créatifs',
+        year: 'Couche distinctive',
+        tag: 'Différenciateur',
         description:
-          'Votre croissance actuelle en ingénierie électrique et hardware doit être présentée comme une extension de votre pensée systémique : infrastructure, dispositifs, curiosité embarquée et chemins physiques du signal.',
-        chips: ['Hardware', 'Systèmes électriques', 'Dispositifs', 'Signal physique']
+          'Conservez le son, le signal et le creative coding comme une couche mémorable de la marque : utile pour les labs, la R&D, les installations et votre identité artistique à long terme.',
+        chips: ['Analyse du signal', 'Sound design', 'Creative coding', 'Recherche']
       }
     ],
     services: [
       {
-        title: 'Rôles en cybersécurité',
+        title: 'Rôles cybersécurité et cloud',
         description:
-          'Sécurité applicative, workflows d’analyste SOC, cloud security, ingénierie de détection, automatisation et support des opérations de sécurité.'
+          'Sécurité applicative, ingénierie de détection, automatisation SOC, défense cloud, support à l’incident response et opérations sécurité.'
       },
       {
-        title: 'Prototypes sécurité + IA',
+        title: 'Automatisation et ingénierie cyber-physique',
         description:
-          'Outils, assistants et workflows aidant les équipes sécurité à trier, détecter, analyser et répondre avec plus de vitesse et de clarté.'
+          'Automatisation industrielle, environnements PLC, télémétrie IIoT, systèmes électriques, logique de maintenance et workflows opérationnels sécurisés.'
       },
       {
-        title: 'Projets d’art cyber-sonique',
+        title: 'Recherche, prototypes et démos techniques',
         description:
-          'Installations, performances et pièces de recherche utilisant signal, bruit, code et systèmes audiovisuels comme matière créative.'
+          'Proofs-of-concept reliant IA, automatisation, traitement du signal, systèmes logiciels et sécurité appliquée.'
       },
       {
-        title: 'Expériences hardware et systèmes',
+        title: 'Travail sonore et creative technology sélectionné',
         description:
-          'Travail interdisciplinaire reliant hardware, son, électronique et infrastructure dans des prototypes tangibles ou des systèmes de performance.'
+          'Systèmes sonores, expériences cyber-soniques, installations et travail interdisciplinaire lorsqu’ils s’alignent avec la marque professionnelle globale.'
       }
     ]
   }

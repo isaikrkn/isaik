@@ -5,100 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page not found | Isaik</title>
     <link rel="stylesheet" href="styles.css" />
-    <style>
-      body {
-        display: grid;
-        place-items: center;
-        min-height: 100vh;
-      }
-      .not-found {
-        width: min(calc(100% - 2rem), 760px);
-        text-align: center;
-        padding: 2rem;
-        border: 1px solid rgba(255, 255, 255, 0.12);
-        border-radius: 24px;
-        background: rgba(255, 255, 255, 0.04);
-        box-shadow: 0 30px 80px rgba(0,0,0,0.35);
-      }
-      h1 { font-size: clamp(3rem, 10vw, 6rem); margin: 0; }
-      p { color: #b9bfd1; line-height: 1.8; }
-      .switcher-wrap {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 1.25rem;
-      }
-      .button { margin-top: 1rem; }
-    </style>
   </head>
   <body>
-    <main class="not-found">
-      <div class="switcher-wrap">
-        <div class="lang-switcher" id="langSwitcher404" role="group" aria-label="Language selector">
-          <button class="lang-btn active" type="button" data-lang="en" aria-pressed="true">EN</button>
-          <button class="lang-btn" type="button" data-lang="es" aria-pressed="false">ES</button>
-          <button class="lang-btn" type="button" data-lang="fr" aria-pressed="false">FR</button>
+    <div class="noise"></div>
+    <div class="site-shell" style="min-height: 100vh; display: grid; place-items: center;">
+      <main class="contact-card" style="max-width: 720px; text-align: left; margin: 4rem 0;">
+        <p class="section-label">404</p>
+        <h1 style="margin: 0.4rem 0 1rem; font-size: clamp(2.5rem, 8vw, 4.4rem); line-height: 1; letter-spacing: -0.05em;">Page not found.</h1>
+        <p style="color: var(--muted); line-height: 1.8;">The page you requested does not exist or was moved. Return to the homepage to continue exploring the site.</p>
+        <div class="hero-actions" style="margin-bottom: 0;">
+          <a class="button button-primary" href="./index.html">Back to home</a>
         </div>
-      </div>
-      <p class="section-label">404</p>
-      <h1 id="title404">Page not found</h1>
-      <p id="text404">
-        The page you are looking for does not exist or has moved. Return to the homepage to keep exploring the site.
-      </p>
-      <a class="button button-primary" href="/" id="home404">Back to home</a>
-    </main>
-
-    <script>
-      const translations404 = {
-        en: {
-          label: 'Language selector',
-          title: 'Page not found',
-          text: 'The page you are looking for does not exist or has moved. Return to the homepage to keep exploring the site.',
-          home: 'Back to home'
-        },
-        es: {
-          label: 'Selector de idioma',
-          title: 'Página no encontrada',
-          text: 'La página que buscas no existe o cambió de ubicación. Regresa al inicio para seguir explorando el sitio.',
-          home: 'Volver al inicio'
-        },
-        fr: {
-          label: 'Sélecteur de langue',
-          title: 'Page introuvable',
-          text: 'La page que vous cherchez n’existe pas ou a changé d’emplacement. Revenez à l’accueil pour continuer à explorer le site.',
-          home: 'Retour à l’accueil'
-        }
-      };
-
-      const switcher404 = document.getElementById('langSwitcher404');
-      const title404 = document.getElementById('title404');
-      const text404 = document.getElementById('text404');
-      const home404 = document.getElementById('home404');
-
-      function apply404(lang) {
-        const safeLang = translations404[lang] ? lang : 'en';
-        const content = translations404[safeLang];
-        document.documentElement.lang = safeLang;
-        document.title = `${content.title} | Isaik`;
-        switcher404.setAttribute('aria-label', content.label);
-        title404.textContent = content.title;
-        text404.textContent = content.text;
-        home404.textContent = content.home;
-
-        switcher404.querySelectorAll('.lang-btn').forEach((button) => {
-          const isActive = button.dataset.lang === safeLang;
-          button.classList.toggle('active', isActive);
-          button.setAttribute('aria-pressed', String(isActive));
-        });
-      }
-
-      switcher404.querySelectorAll('.lang-btn').forEach((button) => {
-        button.addEventListener('click', () => {
-          localStorage.setItem('isaik-language', button.dataset.lang);
-          apply404(button.dataset.lang);
-        });
-      });
-
-      apply404(localStorage.getItem('isaik-language') || 'en');
-    </script>
+      </main>
+    </div>
   </body>
 </html>
