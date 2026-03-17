@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Isaik | Hacking the Noise</title>
+    <meta
+      name="description"
+      content="Official website of Isaik — cybersecurity specialist, sound designer and creative technologist. Ethical hacking, cloud security, automation, sonic art and signal-driven systems."
+    />
+    <meta
+      name="keywords"
+      content="Isaik, ethical hacking, cybersecurity artist, sound designer, creative technologist, cloud security, SOC, appsec, sonic art, hardware, Dublin"
+    />
+    <meta name="author" content="Isaik" />
+    <meta name="theme-color" content="#0a0d13" />
+
+    <meta property="og:title" content="Isaik | Hacking the Noise" />
+    <meta
+      property="og:description"
+      content="Ethical hacking, sonic systems, cloud security and audiovisual experimentation."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/og-cover.svg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Isaik | Hacking the Noise" />
+    <meta
+      name="twitter:description"
+      content="Cybersecurity specialist, sound designer and creative technologist. Hacking the Noise."
+    />
+    <meta name="twitter:image" content="assets/og-cover.svg" />
+
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Isaik",
+        "alternateName": "Nehemias Isai Alvarado Juarez",
+        "jobTitle": [
+          "Cybersecurity Specialist",
+          "Application Security Engineer",
+          "Cloud Security Engineer",
+          "Sound Designer",
+          "Creative Technologist"
+        ],
+        "email": "mailto:isaialvaradojuarez@gmail.com",
+        "url": "/",
+        "sameAs": [
+          "https://github.com/isaikrkn"
+        ],
+        "homeLocation": {
+          "@type": "Place",
+          "name": "Dublin, Ireland"
+        },
+        "knowsAbout": [
+          "Ethical Hacking",
+          "Application Security",
+          "Cloud Security",
+          "SOC Operations",
+          "Threat Detection",
+          "Sound Design",
+          "Creative Coding",
+          "Signal Analysis",
+          "Hardware Systems"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div class="noise"></div>
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand" href="#home" aria-label="Go to home">
+          <span class="brand-mark"></span>
+          <span>ISAIK</span>
+        </a>
+
+        <div class="topbar-actions">
+          <div class="lang-switcher" id="langSwitcher" role="group" aria-label="Language selector">
+            <button class="lang-btn active" type="button" data-lang="en" aria-pressed="true">EN</button>
+            <button class="lang-btn" type="button" data-lang="es" aria-pressed="false">ES</button>
+            <button class="lang-btn" type="button" data-lang="fr" aria-pressed="false">FR</button>
+          </div>
+
+          <button class="nav-toggle" aria-expanded="false" aria-label="Open menu">
+            <span></span>
+            <span></span>
+          </button>
+
+          <nav class="nav">
+            <a href="#work" data-i18n="nav.work">Work</a>
+            <a href="#positioning" data-i18n="nav.positioning">Positioning</a>
+            <a href="#profile" data-i18n="nav.profile">Profile</a>
+            <a href="#contact" data-i18n="nav.contact">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero" id="home">
+          <div class="hero-copy">
+            <p class="eyebrow" data-i18n="hero.eyebrow">Cybersecurity Specialist · Sound Designer · Creative Technologist</p>
+            <p class="mantra" data-i18n="hero.mantra">Hacking the Noise</p>
+            <h1 data-i18n="hero.title">
+              Ethical hacking, sonic systems, and a personal brand built like a modern music mage.
+            </h1>
+            <p class="lead" data-i18n="hero.lead">
+              I design secure systems, automate threat detection, and explore sound as signal, code, ritual, and performance. My practice connects application security, cloud operations, hardware curiosity, and audiovisual art.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#work" data-i18n="hero.primaryCta">Explore the work</a>
+              <a class="button button-secondary" href="#contact" data-i18n="hero.secondaryCta">Get in touch</a>
+            </div>
+            <ul class="hero-metrics" aria-label="Profile summary">
+              <li>
+                <strong data-i18n="hero.metrics.one.title">Security Engineering</strong>
+                <span data-i18n="hero.metrics.one.text">Application security, SOC workflows, SIEM, EDR, detection engineering.</span>
+              </li>
+              <li>
+                <strong data-i18n="hero.metrics.two.title">Signal & Sound</strong>
+                <span data-i18n="hero.metrics.two.text">Sound design, audio analysis, electroacoustic thinking, generative systems.</span>
+              </li>
+              <li>
+                <strong data-i18n="hero.metrics.three.title">Cloud & Hardware</strong>
+                <span data-i18n="hero.metrics.three.text">AWS, Azure, automation, infrastructure, and a growing hardware/electrical practice.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <div class="sigil-ring"></div>
+            <div class="sigil-core"></div>
+            <div class="scan-line scan-a"></div>
+            <div class="scan-line scan-b"></div>
+            <div class="terminal-card">
+              <span class="grid-label">Current mode</span>
+              <p data-i18n="hero.visualText">
+                Building a brand at the intersection of ethical hacking, cloud defense, sound systems, and techno-mystic performance language.
+              </p>
+              <ul>
+                <li data-i18n="hero.visualList.one">AppSec / SOC / automation</li>
+                <li data-i18n="hero.visualList.two">Signal, synthesis, sonic research</li>
+                <li data-i18n="hero.visualList.three">Hardware, infrastructure, system thinking</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="section intro-band" id="positioning">
+          <div>
+            <p class="section-label" data-i18n="positioning.label">Positioning</p>
+            <h2 data-i18n="positioning.title">From artist-technologist to cyber-sonic identity.</h2>
+          </div>
+          <div>
+            <p data-i18n="positioning.textOne">
+              Your strongest differentiation is not “musician who likes security”, but a hybrid profile that combines cybersecurity engineering, cloud defense, automation, AI, sound systems, and artistic direction.
+            </p>
+            <p data-i18n="positioning.textTwo">
+              Visually, the site should feel like a clean security console crossed with a ritual instrument panel: precise, minimal, and memorable. That supports the “music mage” idea without looking theatrical or unprofessional.
+            </p>
+          </div>
+        </section>
+
+        <section class="section" id="work">
+          <div class="section-heading">
+            <div>
+              <p class="section-label" data-i18n="work.label">Selected tracks of experience</p>
+              <h2 data-i18n="work.title">What the brand should emphasize now</h2>
+            </div>
+            <p data-i18n="work.intro">
+              These blocks translate your background into a sharper narrative for recruiters, collaborators, festivals, labs, and cybersecurity teams.
+            </p>
+          </div>
+
+          <div class="project-grid" id="projectGrid"></div>
+        </section>
+
+        <section class="section split" id="profile">
+          <div>
+            <p class="section-label" data-i18n="profile.label">Profile</p>
+            <h2 data-i18n="profile.title">Recommended bio direction</h2>
+            <p data-i18n="profile.textOne">
+              Isaik is a cybersecurity specialist, sound designer, and creative technologist exploring the space where security research, signal analysis, cloud systems, and sonic art meet.
+            </p>
+            <p data-i18n="profile.textTwo">
+              His work spans application security, SOC automation, cloud defense, AI-assisted detection, and experimental sound practices rooted in systems thinking, coding, and audiovisual performance.
+            </p>
+            <blockquote class="quote-block" data-i18n="profile.quote">
+              “Hacking the Noise” is both a creative statement and a systems mindset: finding structure in complexity, transforming interference into signal, and designing tools that listen, detect, and respond.
+            </blockquote>
+          </div>
+
+          <aside class="bio-panel">
+            <div class="bio-item">
+              <span data-i18n="profile.panel.base">Base</span>
+              <strong data-i18n="profile.panel.baseValue">Dublin, Ireland</strong>
+            </div>
+            <div class="bio-item">
+              <span data-i18n="profile.panel.focus">Focus</span>
+              <strong data-i18n="profile.panel.focusValue">AppSec, SOC automation, sound systems, creative coding</strong>
+            </div>
+            <div class="bio-item">
+              <span data-i18n="profile.panel.stack">Stack</span>
+              <strong data-i18n="profile.panel.stackValue">Azure Sentinel, Defender, CrowdStrike, AWS, Azure, Python, PowerShell, Bash</strong>
+            </div>
+            <div class="bio-item">
+              <span data-i18n="profile.panel.visual">Visual language</span>
+              <strong data-i18n="profile.panel.visualValue">Signal glyphs, terminal glass, arcane geometry, controlled glow</strong>
+            </div>
+          </aside>
+        </section>
+
+        <section class="section" id="offers">
+          <div class="section-heading">
+            <div>
+              <p class="section-label" data-i18n="offers.label">Use this site to attract</p>
+              <h2 data-i18n="offers.title">Collaborations, roles, and opportunities</h2>
+            </div>
+            <p data-i18n="offers.intro">
+              These are the offers and formats worth making explicit in your website so the right people know how to work with you.
+            </p>
+          </div>
+
+          <div class="service-grid" id="serviceGrid"></div>
+        </section>
+
+        <section class="section cta-panel">
+          <div>
+            <p class="section-label" data-i18n="cta.label">Next layer</p>
+            <h2 data-i18n="cta.title">Add proof, not just aesthetics.</h2>
+            <p data-i18n="cta.text">
+              The strongest next improvement is to add real links to GitHub, LinkedIn, talks, demos, write-ups, music platforms, and a downloadable resume or press kit.
+            </p>
+          </div>
+          <div class="cta-links">
+            <a class="pill-link" href="https://github.com/isaikrkn" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="pill-link" href="mailto:isaialvaradojuarez@gmail.com">Email</a>
+            <a class="pill-link" href="#">LinkedIn</a>
+            <a class="pill-link" href="#">SoundCloud</a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer" id="contact">
+        <div>
+          <p class="section-label" data-i18n="footer.label">Contact</p>
+          <h2 data-i18n="footer.title">Security, sound, systems, and strange signal.</h2>
+          <p data-i18n="footer.text">
+            Available for cybersecurity roles, creative technology collaborations, sonic projects, security automation, and interdisciplinary commissions.
+          </p>
+        </div>
+
+        <div class="contact-card">
+          <a href="mailto:isaialvaradojuarez@gmail.com">isaialvaradojuarez@gmail.com</a>
+          <a href="https://github.com/isaikrkn" target="_blank" rel="noreferrer">github.com/isaikrkn</a>
+          <span data-i18n="footer.location">Dublin, Ireland</span>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
