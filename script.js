@@ -47,21 +47,21 @@ const content = {
       label: 'Positioning',
       title: 'Professional first, distinctive second.',
       textOne:
-        'The site should present you first as a credible engineering profile spanning cybersecurity, automation, cloud, and cyber-physical systems.',
+        '',
       textTwo:
-        'Your artistic layer remains a differentiator, not a distraction: sound, signal, and systems thinking make the brand memorable without reducing professionalism.'
+        ''
     },
     work: {
       label: 'Core focus',
       title: 'What the site should emphasize now',
       intro:
-        'These blocks align your website with the strongest story from your engineering, security, automation, and sound background.'
+        ''
     },
     portfolio: {
       label: 'Projects / Labs',
       title: 'GitHub projects, research labs, and demos',
       intro:
-        'Use this section for repositories, live demos, technical write-ups, and cyber-sonic experiments. Each card can point to GitHub, a live build, or a case study.'
+        ''
     },
     profile: {
       label: 'Profile',
@@ -87,7 +87,7 @@ const content = {
       label: 'Open to',
       title: 'Roles, collaborations, and projects',
       intro:
-        'Make it easy for recruiters, hiring managers, labs, and collaborators to understand where you fit best.'
+        ''
     },
     cta: {
       label: 'Proof layer',
