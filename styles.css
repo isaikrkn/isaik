@@ -327,6 +327,89 @@ main {
   font-size: 0.92rem;
 }
 
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.2rem;
+}
+
+.portfolio-card {
+  border: 1px solid var(--line);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.03)),
+    radial-gradient(circle at top right, rgba(136, 255, 226, 0.08), transparent 35%);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.35rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.portfolio-head,
+.portfolio-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.portfolio-type,
+.portfolio-status {
+  font-size: 0.76rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.portfolio-card h3 {
+  margin: 0;
+  font-size: clamp(1.12rem, 2vw, 1.35rem);
+}
+
+.portfolio-card p {
+  margin: 0;
+}
+
+.portfolio-chips {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  padding: 0;
+  margin: 0;
+}
+
+.portfolio-chips li {
+  padding: 0.42rem 0.72rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,0.04);
+  color: var(--text);
+  font-size: 0.85rem;
+}
+
+.mini-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 0.95rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,0.03);
+  color: var(--text);
+  font-weight: 600;
+  transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+.mini-link:hover,
+.mini-link:focus-visible {
+  transform: translateY(-1px);
+  border-color: var(--line-strong);
+  background: rgba(255,255,255,0.06);
+}
+
 .hero-visual {
   position: relative;
   min-height: 560px;
@@ -584,6 +667,7 @@ main {
 @media (max-width: 900px) {
   .hero-metrics,
   .project-grid,
+  .portfolio-grid,
   .service-grid {
     grid-template-columns: 1fr;
   }
